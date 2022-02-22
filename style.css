@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(0, 38, 88);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("BG.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+@font-face {
+    font-family: AN;
+    src: url("Fonts/AbandoN.ttf");
+}
+@font-face {
+    font-family: AG;
+    src: url("Fonts/Alternate\ Gothic\ No2\ D\ Regular.ttf");
+}
+@font-face {
+    font-family: AB;
+    src: url("Fonts/Arabella.ttf");
+}
+@font-face {
+    font-family: AI;
+    src: url("Fonts/ARIBLK.TTF");
+}
+@font-face {
+    font-family: BB;
+    src: url("Fonts/BOOMBOX.TTF");
+}
+@font-face {
+    font-family: DC;
+    src: url("Fonts/Dodgv2c.ttf");
+}
+@font-face {
+    font-family: DF;
+    src: url("Fonts/DragonForcE.ttf");
+}
+@font-face {
+    font-family: EO2B;
+    src: url("Fonts/Exo2-Black.ttf");
+}
+@font-face {
+    font-family: HP;
+    src: url("Fonts/HARRYP__.TTF");
+}
+@font-face {
+    font-family: HH;
+    src: url("Fonts/hemi\ head\ bd\ it.ttf");
+}
+@font-face {
+    font-family: LM;
+    src: url("Fonts/LemonMilkBold-gx2B3.otf");
+}
+@font-face {
+    font-family: MCF;
+    src: url("Fonts/MerryChristmasFlake.ttf");
+}
+@font-face {
+    font-family: MCS;
+    src: url("Fonts/MerryChristmasStar.ttf");
+}
+@font-face {
+    font-family: MD;
+    src: url("Fonts/MrDafoe-Regular.ttf");
+}
+@font-face {
+    font-family: NG;
+    src: url("Fonts/Neuzeit\ Grotesk\ Cond\ W01\ Black.otf");
+}
+@font-face {
+    font-family: PS;
+    src: url("Fonts/PrincessSofia-Regular.ttf");
+}
+@font-face {
+    font-family: RB;
+    src: url("Fonts/Rumburak.ttf");
+}
+@font-face {
+    font-family: SF;
+    src: url("Fonts/Satisfaction.ttf");
+}
+::-webkit-scrollbar{
+    width: 17px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(109, 109, 109);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(209, 209, 209);   
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(192, 192, 192);   
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(175, 175, 175);   
+}
+
+#hny{
+    font-family: AB;
+    font-size: 60px;
+    font-weight:bolder;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 0%;
+}
+#spark{
+    font-family: MCS;
+    font-size: 500px;
+}
+#logo{
+    width: 400px;
+    animation-name: logospin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+#logo-div{
+    text-align: center;
+}
+
+@keyframes logospin {
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(-50deg);
+    }
+    40%{
+        transform: rotate(75deg);
+    }
+    60%{
+        transform: rotate(35deg);
+    }
+    80%{
+        transform: rotate(55deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+@keyframes bgplay {
+    0%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url("BG.webp");
+    }
+    10%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.103),rgba(0, 0, 0, 0.103)) , url("BG.webp");
+    }
+    20%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.274),rgba(0, 0, 0, 0.274)) , url("BG.webp");
+    }
+    30%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.308)) , url("BG.webp");
+    }
+    40%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.185)) , url("BG.webp");
+    }
+    50%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.315)) , url("BG.webp");
+    }
+    60%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.267)) , url("BG.webp");
+    }
+    70%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.397)) , url("BG.webp");
+    }
+    80%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.582)) , url("BG.webp");
+    }
+    90%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)) , url("BG.webp");
+    }
+    100%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.418)) , url("BG.webp");
+    }
+}
+
+@media screen and (max-width: 568px){
+    #hny{
+        font-size: 55px;
+    }
+    #logo{
+        width: 380px;
+    }
+}
+@media screen and (max-width: 488px){
+    #hny{
+        font-size: 50px;
+    }
+    #logo{
+        width: 360px;
+    }
+}
+@media screen and (max-width: 452px){
+    #hny{
+        font-size: 45px;
+    }
+    #logo{
+        width: 340px;
+    }
+}
+@media screen and (max-width: 400px){
+    #hny{
+        font-size: 40px;
+    }
+    #logo{
+        width: 320px;
+    }
+}
